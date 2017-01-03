@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: nzgTest01
+  host: nzgTest01
+  disk_quota: 1024M
+  services:
+  - dashDB for Analytics-0b
+  - availability-monitoring-auto
